@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 23px;
+}
+
+th{
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border: #ba9f9f 1px solid;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: black 1px solid;
+
+}
+
+.horaBloque{
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+}
+
+h2{
+    font-family: "Clicker Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+
+}
+
+table{
+    margin: 0 auto;
+    border: black 1px solid;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.titulo{
+    font-family: 'Cinzel', serif;
+    
+}
+/*
+.imagen1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+img{
+   
+    width: 400px; /* Ancho deseado de la imagen *//*
+    height: auto;
+}*/
+
+.numero{
+    font-size: 15px;
+}
+
+.profe{
+   
+    font-size: 11px;
+    color: rgb(66, 8, 120);
+}
+
+.tipo{
+    font-size: 9px;
+    
+}
+ .cat{
+    color: rgb(7, 60, 220);
+ }
+
+.lab{
+    color: rgb(175, 60, 47);
+}
+
+.ayu{
+    color: rgb(239, 49, 233);
+}
+
+.clase{
+    font-weight: bold;
+}
+
+/* Path: horario/index.html */
+/*quiero poner un reloj que indique fecha y hora al medio,debajo del titulo*/
+#reloj{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.resaltado{
+    background-color: rgb(208, 112, 239);
+}
