@@ -55,6 +55,7 @@ console.log(hoy);*/
             break;
     }
     console.log(claseHora);
+    clseHora = 'hora-1900-viernes';
 
    
 
