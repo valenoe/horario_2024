@@ -52,6 +52,7 @@ function resaltarCuadroHoraActual() {
             break;
     }
 
+    console.log(claseHora);
     // Remover resaltado de todos los cuadros
     var cuadros = document.querySelectorAll('td');
     cuadros.forEach(function(cuadro) {
