@@ -4,6 +4,7 @@ function resaltarCuadroHoraActual() {
     
     var hora = ahora.getHours();
     var minutos = ahora.getMinutes();
+    var diaSemana = ahora.getDat();
     //var claseHora = 'hora-' + hora.toString().padStart(2, '0') + minutos.toString().padStart(2, '0');
     //alert(claseHora);
     var claseHora = '';
@@ -32,6 +33,23 @@ function resaltarCuadroHoraActual() {
         } else{
             claseHora = 'hora-1900';
         }
+    }
+    switch(diaSemana){
+        case 1:
+            claseHora = claseHora+'-lunes';
+            break;
+        case 2:
+            claseHora = claseHora+'-martes';
+            break;
+        case 3:
+            claseHora = claseHora+'-miercoles';
+            break;
+        case 4:
+            claseHora = claseHora+'-jueves';
+            break;
+        case 5:
+            claseHora = claseHora+'-viernes';
+            break;
     }
 
     // Remover resaltado de todos los cuadros
